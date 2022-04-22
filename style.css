@@ -47,7 +47,7 @@ header {
     max-width: 800px;
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 .introduction img {
     width: 600px;
@@ -79,3 +79,62 @@ header {
     cursor: pointer;
 }
 
+.features {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    gap: 50px;
+}
+
+.features p {
+    line-height: 25px;
+}
+
+.features h2 {
+    font-size: 22px;
+}
+.production {
+    display:grid;
+    grid-template-columns: 1.5fr 2fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 40px;
+    margin-top: 150px;
+    margin-bottom: 70px;
+
+}
+.production .left {
+    max-width: 450px;
+    margin-left: 40px;
+}
+
+.production .left img {
+    width: 100%;
+}
+
+.production .right {
+    max-width: 700px;
+}
+
+.production h2, .production p {
+    margin-bottom: 40px;
+}
+.production p {
+    line-height: 25px;
+}
+
+.production .right span {
+    text-align: end;
+    padding-left: 3px;
+}
+.production .right a {
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+    padding-bottom: 2px;
+    
+}
