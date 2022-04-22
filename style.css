@@ -1,0 +1,81 @@
+:root {
+    --primary-color-dark-blue-1: hsl(217, 28%, 15%);
+    --primary-color-dark-blue-2: hsl(218, 28%, 13%);
+    --primary-color-dark-blue-3: hsl(216, 53%, 9%);
+    --primary-color-dark-blue-4: hsl(219, 30%, 18%);
+    --cyan-color: hsl(176, 68%, 64%);
+    --blue-color: hsl(198, 60%, 50%);
+    --neutral-white-color: hsl(0, 0%, 100%);
+    --font-heading: 'Raleway', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+body {
+    background: var(--primary-color-dark-blue-2);
+    font-family: var(--font-body);
+    color: var(--neutral-white-color);
+    
+}
+header {
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-bar {
+    display: flex;
+    gap: 35px;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.nav-bar a {
+    color: var(--neutral-white-color);
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.nav-bar a:hover {
+    color: var(--blue-color);
+    cursor: pointer;
+}
+.introduction {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.introduction img {
+    width: 600px;
+}
+
+.introduction h1, .introduction p {
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.introduction h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.introduction button {
+    padding: 15px 80px;
+    border-radius: 20px;
+    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: var(--neutral-white-color);
+    font-weight: 700;
+    border: none;
+    
+}
+
+.introduction button:hover {
+    background: linear-gradient(to right, hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+    cursor: pointer;
+}
+
