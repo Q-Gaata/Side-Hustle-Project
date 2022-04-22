@@ -138,3 +138,37 @@ header {
     padding-bottom: 2px;
     
 }
+
+.testimonial {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 80px 70px;
+}
+
+.testimonial .testimonial-item {
+    background-color: var(--primary-color-dark-blue-4);
+    color: var(--neutral-white-color);
+    padding: 45px 25px;
+    border-radius:10px;
+}
+.testimonial .testimonial-item img {
+    width: 50px;
+    border-radius: 50%;
+    display: block;
+}
+
+.testimonial .testimonial-item .item-down {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 10px;
+}
+
+.testimonial-item p {
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+
+.testimonial .testimonial-item {
+    margin-top: 40px;
+}
